@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-Link to the site: https://nie-chenhao.github.io/Lab2_Starter/
+# CSE 110 - Lab 3
+Link to the site: https://nie-chenhao.github.io/sp25-cse110-lab3/
