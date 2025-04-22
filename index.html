@@ -3,16 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <title>First Group Meeting</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      img[alt*="Diagram"] { border: 2px dashed var(--accent, coral); }
+    </style> 
   </head>
 
   <body>
-    <header>
+    <header id="page-header">
         <h1>Deadline app</h1>
         <h2>brainstorming</h2>
         <h3>Apr 9 2025</h3>
     </header>
    
-    <div class="attendance">
+    <div class="attendance list-box">
         <h4>Attendance List:</h4>
       
         <ul>
@@ -21,7 +26,7 @@
            <li>Ryan</li>
         </ul>
     </div>
-    <div class="agenda">
+    <div class="agenda list-box">
         <h4>Agenda:</h4>
       
         <ol>
@@ -31,7 +36,7 @@
            <li>Work division</li>
         </ol>
     </div>
-    <h4>1. Previous meeting</h4>
+    <h4 style="color: var(--accent, coral);">1. Previous meeting</h4>
     <p>We introduced about the logistics in the previous meeting. There is one more thing to add to that, our project would last for 10 weeks. </p>
     <h4>2. Ice breaker</h4>
     <p>Members talked about their hobbies.</p>
