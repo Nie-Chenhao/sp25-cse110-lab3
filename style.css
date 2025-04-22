@@ -16,7 +16,7 @@ body{
 }
 
 header{
-    background: color-mix(in srgb, white 85%, var(--accent) 15%);
+    background: hsl(16 80% 95%);
     margin-bottom: 2rem;
 }
 
@@ -74,10 +74,8 @@ h4 ~ p       { color:#555; }
 .attendance.list-box{ border-style:dashed; }
 body:has(video){ outline:3px dashed crimson; }
 
-#page-header{
-    & h1{
-      letter-spacing:.5px;
-    }
+#page-header h1{
+    letter-spacing: .5px;
 }
 
 @media (max-width:600px){
