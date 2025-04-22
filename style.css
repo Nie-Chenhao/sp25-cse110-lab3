@@ -42,3 +42,48 @@ img{
 
 
 h1{ color: orange; }
+
+#page-header{
+    display:flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    align-items: flex-start;
+}
+
+.list-box{
+    display:grid;
+    grid-template-columns: 150px 1fr;
+    gap: .5rem 1rem;
+    place-items: start;
+}
+
+h4  {display: inline-block;}
+section#misc {position: relative;}
+h1  {text-decoration: underline double;}
+
+ul{margin-left: 1.5rem;}
+img[alt*="Diagram"]{ filter:grayscale(.4); }
+ul li:hover { background:rgba(0 0 0 /.05); }
+ul li:active{ transform:scale(.96); }
+h1, h2{ color:orange; }
+section h3   { margin-bottom:.2rem; }   
+section > p  { font-style:italic; }     
+h4 + p       { margin-top:0; }      
+h4 ~ p       { color:#555; }           
+
+.attendance.list-box{ border-style:dashed; }
+body:has(video){ outline:3px dashed crimson; }
+
+#page-header{
+    & h1{
+      letter-spacing:.5px;
+    }
+}
+
+@media (max-width:600px){
+    #page-header{ text-align:center; align-items:center; }
+    .list-box   { grid-template-columns:1fr; }
+}
+
+img { display:block; }
+  
